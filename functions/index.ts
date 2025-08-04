@@ -1,0 +1,96 @@
+const files: Record<string, string> = {
+  "/": `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ResumeGenius</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>ResumeGenius</h1>
+    <p class="tagline">Craft Your Perfect Resume with AI Precision</p>
+  </header>
+  <main class="container">
+    <h2>MVP Plan</h2>
+    <pre>{&quot;ideaId&quot;:&quot;3483ad70-5166-48a0-8401-cb7f88f0e8d5&quot;,&quot;branding&quot;:{&quot;name&quot;:&quot;ResumeGenius&quot;,&quot;tagline&quot;:&quot;Craft Your Perfect Resume with AI Precision&quot;,&quot;colors&quot;:[&quot;#2A9D8F&quot;,&quot;#264653&quot;,&quot;#E9C46A&quot;,&quot;#F4A261&quot;,&quot;#E76F51&quot;],&quot;logoDesc&quot;:&quot;The logo features a sleek, modern font for the brand name &#39;ResumeGenius&#39; with the &#39;G&#39; stylized to resemble a digital pen, emphasizing the AI-driven writing aspect. The color palette incorporates a blend of teal and navy for professionalism, with accents of gold and coral to add a touch of creativity and innovation.&quot;,&quot;logoUrl&quot;:&quot;https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-2gajoo5Jlgcgh6gnetLT1Tc6.png?st=2025-08-04T17%3A47%3A38Z&amp;se=2025-08-04T19%3A47%3A38Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=cc612491-d948-4d2e-9821-2683df3719f5&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2025-08-04T18%3A47%3A38Z&amp;ske=2025-08-05T18%3A47%3A38Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=md9ja69mmqMzsDZDZQHdlclhOpfFP45nl0vGJOul6uI%3D&quot;},&quot;messages&quot;:[{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;Hi! I&#39;m your AI cofounder. Let&#39;s build something together.\n\nTo start, tell me about the startup idea you&#39;re exploring — even if it&#39;s rough.&quot;},{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;AI resume template generator&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;Great! An AI resume template generator is a promising idea. Let&#39;s refine it a bit. This tool can leverage AI to create personalized resume templates tailored to different industries, roles, and career levels. It can include features like automatic formatting, content suggestions based on job descriptions, and customization options for design and layout. The end goal is to help users quickly craft professional and optimized resumes that increase their chances of landing job interviews.\n\n**Refined Idea:**\nAI Resume Template Generator - An AI-powered tool that creates personalized resume templates tailored to specific industries and roles, helping users craft professional and optimized resumes efficiently.\n\nDoes this Refined Idea look right to you?&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;✅ Validation complete. Here&#39;s what we found:\n\nTo validate the concept of an AI resume template generator, it&#39;s important to analyze several key aspects, including the market, audience, business model, competition, and potential risks.\n\n### Market\nThe market for resume-building tools is growing due to increasing job mobility and the need for individuals to present themselves effectively in a competitive job market. The use of AI in this field is particularly appealing as it offers personalization and efficiency. The global market for recruitment software and tools, which includes resume builders, is projected to continue expanding as companies and job seekers alike look for more efficient and effective solutions.\n\n### Audience\nThe primary audience for an AI resume template generator includes:\n- **Job Seekers:** Individuals who are actively looking for jobs and need to create or update their resumes.\n- **Students and Recent Graduates:** Those entering the job market for the first time and needing to craft their resumes.\n- **Career Changers:** Professionals looking to pivot to new industries or roles who need to reframe their experiences.\n- **Recruitment Agencies:** Firms that help job seekers prepare for job applications and may use such tools to aid their clients.\n\n### Business Model\nSeveral business models could be employed for an AI resume template generator:\n- **Freemium Model:** Offer basic resume templates and features for free, while charging for premium templates, AI-driven personalization, or additional services like cover letter generation and interviewing tips.\n- **Subscription Model:** Charge a monthly or annual fee for access to the full suite of tools and features.\n- **One-Time Purchase:** Offer a one-time payment option for lifetime access to the software.\n- **B2B Partnerships:** Partner with educational institutions or career services to provide access to their students and clients.\n\n### Competitors\nThere are several existing competitors in the space, including:\n- **Traditional Resume Builders:** Tools like Canva, Resume Genius, and Zety offer template-driven resume creation without AI personalization.\n- **AI-Powered Resume Tools:** Platforms like Resume.io and Novoresume incorporate AI for personalization but may lack depth in customization or template variety.\n- **Professional Writing Services:** Companies and freelancers offering bespoke resume writing services.\n\n### Risks\n- **Market Saturation:** The market is becoming increasingly crowded with resume-building tools, making it challenging to stand out.\n- **AI Limitations:** AI may struggle with specific nuances, particularly for highly specialized roles or industry-specific jargon.\n- **Data Privacy:** Handling personal information requires stringent data protection measures to prevent breaches and maintain user trust.\n- **Changing Hiring Practices:** As hiring practices evolve, resume formats and content requirements may change, necessitating continuous updates to the tool.\n\n### Conclusion\nAn AI resume template generator has potential in the current market but requires careful positioning and differentiation from existing tools. Emphasizing unique AI capabilities, user-friendly design, and robust data protection measures can help in gaining a competitive edge. Additionally, staying abreast of hiring trends and user feedback will be critical in maintaining relevance and efficacy.&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;✅ **Branding complete!**\n\n**Name:** ResumeGenius\n**Tagline:** Craft Your Perfect Resume with AI Precision\n**Colors:** #2A9D8F, #264653, #E9C46A, #F4A261, #E76F51\n**Logo Concept:** The logo features a sleek, modern font for the brand name &#39;ResumeGenius&#39; with the &#39;G&#39; stylized to resemble a digital pen, emphasizing the AI-driven writing aspect. The color palette incorporates a blend of teal and navy for professionalism, with accents of gold and coral to add a touch of creativity and innovation.\n\n&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;✅ You&#39;re ready to deploy your MVP!\n\n&quot;}]}</pre>
+  </main>
+  <footer class="footer">
+    <p>Generated by AI on 8/4/2025</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>`,
+  "/index.html": `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ResumeGenius</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>ResumeGenius</h1>
+    <p class="tagline">Craft Your Perfect Resume with AI Precision</p>
+  </header>
+  <main class="container">
+    <h2>MVP Plan</h2>
+    <pre>{&quot;ideaId&quot;:&quot;3483ad70-5166-48a0-8401-cb7f88f0e8d5&quot;,&quot;branding&quot;:{&quot;name&quot;:&quot;ResumeGenius&quot;,&quot;tagline&quot;:&quot;Craft Your Perfect Resume with AI Precision&quot;,&quot;colors&quot;:[&quot;#2A9D8F&quot;,&quot;#264653&quot;,&quot;#E9C46A&quot;,&quot;#F4A261&quot;,&quot;#E76F51&quot;],&quot;logoDesc&quot;:&quot;The logo features a sleek, modern font for the brand name &#39;ResumeGenius&#39; with the &#39;G&#39; stylized to resemble a digital pen, emphasizing the AI-driven writing aspect. The color palette incorporates a blend of teal and navy for professionalism, with accents of gold and coral to add a touch of creativity and innovation.&quot;,&quot;logoUrl&quot;:&quot;https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-2gajoo5Jlgcgh6gnetLT1Tc6.png?st=2025-08-04T17%3A47%3A38Z&amp;se=2025-08-04T19%3A47%3A38Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=cc612491-d948-4d2e-9821-2683df3719f5&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2025-08-04T18%3A47%3A38Z&amp;ske=2025-08-05T18%3A47%3A38Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=md9ja69mmqMzsDZDZQHdlclhOpfFP45nl0vGJOul6uI%3D&quot;},&quot;messages&quot;:[{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;Hi! I&#39;m your AI cofounder. Let&#39;s build something together.\n\nTo start, tell me about the startup idea you&#39;re exploring — even if it&#39;s rough.&quot;},{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;AI resume template generator&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;Great! An AI resume template generator is a promising idea. Let&#39;s refine it a bit. This tool can leverage AI to create personalized resume templates tailored to different industries, roles, and career levels. It can include features like automatic formatting, content suggestions based on job descriptions, and customization options for design and layout. The end goal is to help users quickly craft professional and optimized resumes that increase their chances of landing job interviews.\n\n**Refined Idea:**\nAI Resume Template Generator - An AI-powered tool that creates personalized resume templates tailored to specific industries and roles, helping users craft professional and optimized resumes efficiently.\n\nDoes this Refined Idea look right to you?&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;✅ Validation complete. Here&#39;s what we found:\n\nTo validate the concept of an AI resume template generator, it&#39;s important to analyze several key aspects, including the market, audience, business model, competition, and potential risks.\n\n### Market\nThe market for resume-building tools is growing due to increasing job mobility and the need for individuals to present themselves effectively in a competitive job market. The use of AI in this field is particularly appealing as it offers personalization and efficiency. The global market for recruitment software and tools, which includes resume builders, is projected to continue expanding as companies and job seekers alike look for more efficient and effective solutions.\n\n### Audience\nThe primary audience for an AI resume template generator includes:\n- **Job Seekers:** Individuals who are actively looking for jobs and need to create or update their resumes.\n- **Students and Recent Graduates:** Those entering the job market for the first time and needing to craft their resumes.\n- **Career Changers:** Professionals looking to pivot to new industries or roles who need to reframe their experiences.\n- **Recruitment Agencies:** Firms that help job seekers prepare for job applications and may use such tools to aid their clients.\n\n### Business Model\nSeveral business models could be employed for an AI resume template generator:\n- **Freemium Model:** Offer basic resume templates and features for free, while charging for premium templates, AI-driven personalization, or additional services like cover letter generation and interviewing tips.\n- **Subscription Model:** Charge a monthly or annual fee for access to the full suite of tools and features.\n- **One-Time Purchase:** Offer a one-time payment option for lifetime access to the software.\n- **B2B Partnerships:** Partner with educational institutions or career services to provide access to their students and clients.\n\n### Competitors\nThere are several existing competitors in the space, including:\n- **Traditional Resume Builders:** Tools like Canva, Resume Genius, and Zety offer template-driven resume creation without AI personalization.\n- **AI-Powered Resume Tools:** Platforms like Resume.io and Novoresume incorporate AI for personalization but may lack depth in customization or template variety.\n- **Professional Writing Services:** Companies and freelancers offering bespoke resume writing services.\n\n### Risks\n- **Market Saturation:** The market is becoming increasingly crowded with resume-building tools, making it challenging to stand out.\n- **AI Limitations:** AI may struggle with specific nuances, particularly for highly specialized roles or industry-specific jargon.\n- **Data Privacy:** Handling personal information requires stringent data protection measures to prevent breaches and maintain user trust.\n- **Changing Hiring Practices:** As hiring practices evolve, resume formats and content requirements may change, necessitating continuous updates to the tool.\n\n### Conclusion\nAn AI resume template generator has potential in the current market but requires careful positioning and differentiation from existing tools. Emphasizing unique AI capabilities, user-friendly design, and robust data protection measures can help in gaining a competitive edge. Additionally, staying abreast of hiring trends and user feedback will be critical in maintaining relevance and efficacy.&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;✅ **Branding complete!**\n\n**Name:** ResumeGenius\n**Tagline:** Craft Your Perfect Resume with AI Precision\n**Colors:** #2A9D8F, #264653, #E9C46A, #F4A261, #E76F51\n**Logo Concept:** The logo features a sleek, modern font for the brand name &#39;ResumeGenius&#39; with the &#39;G&#39; stylized to resemble a digital pen, emphasizing the AI-driven writing aspect. The color palette incorporates a blend of teal and navy for professionalism, with accents of gold and coral to add a touch of creativity and innovation.\n\n&quot;},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:&quot;✅ You&#39;re ready to deploy your MVP!\n\n&quot;}]}</pre>
+  </main>
+  <footer class="footer">
+    <p>Generated by AI on 8/4/2025</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>`,
+  "/styles.css": `body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.header {
+  background: #0066cc;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}`,
+  "/app.js": `export function init() {
+  console.log("App initialized");
+}
+window.addEventListener("DOMContentLoaded", init);`
+};
+
+export default {
+  async fetch(request: Request): Promise<Response> {
+    const url = new URL(request.url);
+    const path = url.pathname in files ? url.pathname : "/index.html";
+    const content = files[path];
+    const contentType = getContentType(path);
+    return new Response(content, {
+      headers: { "Content-Type": contentType }
+    });
+  }
+};
+
+function getContentType(path: string): string {
+  if (path.endsWith(".html")) return "text/html";
+  if (path.endsWith(".css")) return "text/css";
+  if (path.endsWith(".js")) return "application/javascript";
+  return "text/plain";
+}
